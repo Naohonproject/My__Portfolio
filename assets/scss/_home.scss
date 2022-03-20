@@ -1,0 +1,29 @@
+/** @format */
+
+.home {
+	height: 100%;
+	padding-top: 40vh;
+	overflow: hidden;
+	align-items: center;
+	text-align: center;
+	background: linear-gradient(
+			to right,
+			rgba($primary-color, 0.8),
+			rgba($primary-color, 0.3)
+		),
+		url("/assets/img/model-1.jpg") top center no-repeat;
+	background-size: cover;
+	&__name {
+		font-size: 5rem;
+		padding-bottom: 1rem;
+		margin-bottom: 1rem;
+		border-bottom: 2px solid set-text-color($primary-color);
+		&--last-name {
+			color: $secondary-color;
+			font-weight: 700;
+		}
+	}
+	h2 {
+		padding-top: 1rem 0;
+	}
+}
